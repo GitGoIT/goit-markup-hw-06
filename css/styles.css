@@ -198,7 +198,7 @@ body {font-family: var(--primery-font);
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/bg.jpg");
     background-size: cover;
-    width: 1600px;
+    width: 100%;
     background-color: #C4C4C4;
     margin-left: auto;
     margin-right: auto;}
@@ -575,7 +575,7 @@ body {font-family: var(--primery-font);
  .footer-form-block {
     margin-left: 93px;
     margin-top: 12px;
-    width: 100%;}
+}
  
 
 .footer-form-title {
@@ -591,7 +591,7 @@ body {font-family: var(--primery-font);
     display: flex;}
 
 .footer-form-input {
-    width: 100%;
+    width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -783,7 +783,8 @@ body {font-family: var(--primery-font);
     height: 15px;
     background-image: url(../images/icones/empty-check.svg);
     background-color: #FFFFFF;
-    margin-right: 7px;}
+    margin-right: 7px;
+    margin-left: 14px;}
 /*--Замінюємо відображення псевдочекбоксу при натисканні--*/
 .modal-form-check:checked + .modal-form-check-desc::before {
     background-image: url(../images/icones/full-check.svg);
